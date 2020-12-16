@@ -1,0 +1,174 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fafafa;
+    margin: 0 0 44px;
+    width: 1349px;
+    align-items: center;
+    height: 826px;
+}
+
+.wrapper > .form{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.input{
+    width: 350px;
+    height: 578px;
+    background: white;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.input img{
+    width: 175px;
+    height: 51px;
+    margin: 22px auto 12px auto;
+}
+
+.input h2{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    margin: 0 40px 10px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.input button{
+    padding: 5px 9px;
+    width: 268px;
+    margin-top: 5px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+    background: #0095f6;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(var(--eca,255,255,255),1);
+    cursor: pointer;
+}
+
+.btn i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+p.ili{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px;
+    position: relative;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+p.ili::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 43px;
+    border-top: 1px solid #dbdbdb;
+    width: 95px;
+}
+
+p.ili::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 43px;
+    border-top: 1px solid #dbdbdb;
+    width: 95px;
+}
+
+.input input::placeholder{
+    font-size: 12px;
+}
+
+.input input[type="text"], [type="email"], [type="password"]{
+    width: 265px;
+    outline: none;
+    font-size: 12px;
+    height: 36px;
+    margin-top: 7px;
+    border-radius: 2px;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    padding: 9px 0 7px 8px;
+}
+
+.input input[type="submit"]{
+    margin: 15px 40px;
+    border: none;
+    outline: none;
+    background: #0095f6;
+    color: rgba(var(--eca,255,255,255),1);
+    padding: 5.5px 93px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p.usl{
+    font-size: 12px;
+    margin: 2px 40px;
+    line-height: 16px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.usl a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.have{
+    background: white;
+    width: 350px;
+    height: 70px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.have p{
+    margin: 15px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.have a{
+    text-decoration: none;
+    color: #0f96f0;
+}
+
+.app p{
+    color: #262626;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.app img{
+    width: 136px;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 40px;
+}
