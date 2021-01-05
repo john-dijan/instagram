@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt=""></a>
+        <input type="search" placeholder="Поиск">
+        <div class="menus">
+            <a href="#"><svg aria-label="Главная страница" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"></path></svg></a>
+            <a href="#"><svg aria-label="Messenger" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M36.2 16.7L29 22.2c-.5.4-1.2.4-1.7 0l-5.4-4c-1.6-1.2-3.9-.8-5 .9l-6.8 10.7c-.7 1 .6 2.2 1.6 1.5l7.3-5.5c.5-.4 1.2-.4 1.7 0l5.4 4c1.6 1.2 3.9.8 5-.9l6.8-10.7c.6-1.1-.7-2.2-1.7-1.5zM24 1C11 1 1 10.5 1 23.3 1 30 3.7 35.8 8.2 39.8c.4.3.6.8.6 1.3l.2 4.1c0 1 .9 1.8 1.8 1.8.2 0 .5 0 .7-.2l4.6-2c.2-.1.5-.2.7-.2.2 0 .3 0 .5.1 2.1.6 4.3.9 6.7.9 13 0 23-9.5 23-22.3S37 1 24 1zm0 41.6c-2 0-4-.3-5.9-.8-.4-.1-.8-.2-1.3-.2-.7 0-1.3.1-2 .4l-3 1.3V41c0-1.3-.6-2.5-1.6-3.4C6.2 34 4 28.9 4 23.3 4 12.3 12.6 4 24 4s20 8.3 20 19.3-8.6 19.3-20 19.3z"></path></svg></a>
+            <a href="#"><svg aria-label="Найти людей" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z" fill-rule="evenodd"></path></svg></a>
+            <a href="#"><svg aria-label="Что нового" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg></a>
+            <a href="#"><img src="https://instagram.flwo4-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.flwo4-1.fna.fbcdn.net&_nc_ohc=tVgl6kiYjrEAX82Oqlq&oh=775a3de34d56658ae197b4d8d7754396&oe=601CAA0F&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2" alt=""></a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="center">
+            <div class="history">
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/135350385_157884849104677_7973982105610561222_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=Y1trxRmP2bgAX_C8k5o&tp=1&oh=cf4a229c99ed84800367910f331a7581&oe=601E2495" alt="">
+                    </div>
+                    <p>_muhamma...</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/56295540_880330179026132_8334137747283378176_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=hJF1G8DrYH0AX-aPyoa&tp=1&oh=412ffae364def62578d43272bdd199e7&oe=601D626D" alt="">
+                    </div>
+                    <p>kochnev.ko...</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/120373591_647831679208751_1742821254761069933_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=EbsgAlAgnAcAX_xcFDp&tp=1&oh=e454510bc00f9566ac1f60da3203e809&oe=601B830B" alt="">
+                    </div>
+                    <p>_nasibillo_</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/49385861_287103795516660_4837889713840848896_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=Tt0gSfgosKgAX9JNCVa&tp=1&oh=71808acbb21cab721dda9d251830a035&oe=601C6EEF" alt="">
+                    </div>
+                    <p>otabekmah...</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/123458427_1308788906137797_4311657360989679678_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=3x_Sc-Lver8AX-PaO7S&tp=1&oh=33a7cd76dbae3a0a86cee8c99f04326a&oe=601BCAD9" alt="">
+                    </div>
+                    <p>tai_malika</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/93802053_678071609403161_6685968795044937728_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=tIr2b-CJNK4AX80uck9&tp=1&oh=f0d25c89ca52ba7d0e750bf7359c6d02&oe=601C064F" alt="">
+                    </div>
+                    <p>najottalim</p>
+                </div>
+
+                <div class="histories">
+                    <div class="img">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/93771610_514798282741437_1712281234735890432_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=HJKX-6WYVOcAX_eSCGE&tp=1&oh=48818c4040b502613d1c0c5adb3c0f69&oe=601DC025" alt="">
+                    </div>
+                    <p>chiroyliuzca...</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/88391562_2601252926669116_7881138771956072448_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=N7RpwsRjLJMAX8HlRl4&tp=1&oh=cbdf46f37e41b704c2ab1df17d545f6a&oe=601AAB73" alt="">
+                        <a href="#">4chbot</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/134543891_460783365083483_8131604416722103284_n.jpg?_nc_ht=instagram.ftas2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=7yIEfRcu4NUAX_Mzg2h&tp=1&oh=86c95f230735dadd02dc1ac0ad36a6e7&oe=601B5288" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">25 599 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (40)</a>
+                <div class="comments">
+                    <p><a href="#">mmortyk</a> Кродеться как мыш</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/116131842_329329745136930_3552757204896788745_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=GDhtRqJBrI8AX8bAkYp&tp=1&oh=86ae2c08340bd70eea9095bb683aa1d9&oe=601BCB42" alt="">
+                        <a href="#">businesstips.in</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/134498480_1073288399855064_158012057194841652_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=xu-ZuvgeU3MAX-PXpya&tp=1&oh=d3a8334018757e20295dca9b7cff1b34&oe=601E6B81" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">1757 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (46)</a>
+                <div class="comments">
+                    <p><a href="#">habasmeir</a> Alibaba stock</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/74495650_464507174407445_3792404106019078144_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=RG3LwjYso3sAX-VipNy&tp=1&oh=81cfb32f633e39b90acdebc64b27d5ec&oe=601BD0B3" alt="">
+                        <a href="#">biblestrength</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/135017270_194313749042651_33508265442852535_n.jpg?_nc_ht=instagram.ftas2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=pNs-7mic-YAAX94P-Ga&tp=1&oh=c9ea8cb073b885c0ccfabbe1fa0344cc&oe=601C3BD4" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">17 502 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (268)</a>
+                <div class="comments">
+                    <p><a href="#">g_pak_777</a> )))</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67486224_927296527624182_7083695157635186688_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=7sCh1DvAZR8AX8S46Oy&tp=1&oh=065b3d8e663b72d7d6b7db2362ae082e&oe=601E2942" alt="">
+                        <a href="#">businessleaderss</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/135038792_877900893038616_4819416607004309673_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=XqrdERGSAh8AX-XCZiS&tp=1&oh=6877c3ef2ffda011c0b2c1ee9186bd9b&oe=601B8296" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">3 174 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (40)</a>
+                <div class="comments">
+                    <p><a href="#">10xcoreacademy</a> Truth is I'm living off the decisions I made in my 20s.</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/117627593_4987602611266046_5241212182148803987_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=f7bJ8MWrpzwAX_9z7WZ&tp=1&oh=bcb9a3deb5c6ecb36db5f0023a24ec27&oe=601B7EAA" alt="">
+                        <a href="#">korea_yangiliklari</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-1.fna.fbcdn.net/v/t51.2885-15/e35/135351693_161720061988738_4510632117998186378_n.jpg?_nc_ht=instagram.ftas2-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=Kg32eRHSJdQAX9iZaoC&tp=1&oh=82c4138d2c8b3a3a77f703af581c7f53&oe=601B7A17" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 c4.2 0 66.1.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">408 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (40)</a>
+                <div class="comments">
+                    <p><a href="#">bekamik_meloman</a> Koreyaga ketib kemaydigan like bozsin.</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/89617891_3160521580838768_4702286618369720320_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=Bw92A3MObMcAX9Oh4S0&tp=1&oh=93fd2e209c58c4900e114e848672a1a2&oe=601DE43B" alt="">
+                        <a href="#">warrenbuffetquote</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/135328700_162557965656782_4975625293544894741_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=zXlFWlh_fXQAX9lWQmn&tp=1&oh=1e1f83102067b64454712e47f5921dcc&oe=601B1E28" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">8 008 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (239)</a>
+                <div class="comments">
+                    <p><a href="#">ninih1232</a> LOVE</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67486224_927296527624182_7083695157635186688_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=7sCh1DvAZR8AX8S46Oy&tp=1&oh=065b3d8e663b72d7d6b7db2362ae082e&oe=601E2942" alt="">
+                        <a href="#">businessleaderss</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/e35/134723391_744998163115078_3856351991607135169_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=bvQrOnFlhaEAX_i6QGb&tp=1&oh=1b0c727e4cde9c7656acc0940ac7a0d1&oe=601E629D" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">2 566 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (64)</a>
+                <div class="comments">
+                    <p><a href="#">samu_musicc</a> 0bb, o.gx.hy .vpp</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/91781784_560814751229546_1973353793940619264_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=KoWetHHps9oAX9BVjW6&tp=1&oh=31fe5312c32f81ab5ea3a9681794af49&oe=601CD182" alt="">
+                        <a href="#">_millionairehustle_</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p750x750/134741839_738858443403277_2323642564486358415_n.jpg?_nc_ht=instagram.ftas2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=N0_EaTSeXLwAX8PVq_X&tp=1&oh=9ff529b34f9575acfc148c3768100f98&oe=601E3698" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">237 отметок "Нравится"</a>
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/117627593_4987602611266046_5241212182148803987_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=f7bJ8MWrpzwAX_9z7WZ&tp=1&oh=bcb9a3deb5c6ecb36db5f0023a24ec27&oe=601B7EAA" alt="">
+                        <a href="#">korea_yangiliklari</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/e35/134946398_784128338868588_8420306749306891075_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=cphJI-SUAPkAX-NAd0A&tp=1&oh=ad4ce5bae4b101ead378619ff701c202&oe=601AC703" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">254 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (5)</a>
+                <div class="comments">
+                    <p><a href="#">muxammadjon142</a> Salom</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+
+            <div class="content" style="margin-top: 70px;">
+                <div class="content-header">
+                    <div class="naz">
+                        <img src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67486224_927296527624182_7083695157635186688_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_ohc=7sCh1DvAZR8AX8S46Oy&tp=1&oh=065b3d8e663b72d7d6b7db2362ae082e&oe=601E2942" alt="">
+                        <a href="#">businessleaderss</a>
+                    </div>
+                    <svg aria-label="Дополнительно" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                </div>
+                <img class="imm" src="https://instagram.ftas2-2.fna.fbcdn.net/v/t51.2885-15/e35/135032845_217222326778572_9023129201219375400_n.jpg?_nc_ht=instagram.ftas2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=I-DjYuBAbYwAX_lwCU-&tp=1&oh=0442564cfdecc392655b7cb6984106d5&oe=601E765E" alt="">
+                <div class="likes">
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>                    <svg aria-label="Комментировать" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                    <svg aria-label="Поделиться публикацией" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                    <div class="soxr">
+                        <svg aria-label="Сохранить" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                    </div>
+                </div>
+
+                <a href="#" class="otm">2 387 отметок "Нравится"</a>
+                <a href="#" class="prosm">Посмотреть все комментарии (40)</a>
+                <div class="comments">
+                    <p><a href="#">30instinct</a> It's not sad for everyone. Me, I love what I do.</p>
+                    <svg aria-label="Нравится" class="_8-yf5 " fill="#262626" height="12" viewBox="0 0 48 48" width="12"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </div>
+
+                <div class="den">                    
+                    <p>День назад</p>
+                    <a href="#">Опубликовать</a>
+                </div>
+                <textarea placeholder="Добавьте комментарий..."></textarea>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="account">
+                <a href="#"><img src="https://instagram.flwo4-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.flwo4-1.fna.fbcdn.net&_nc_ohc=tVgl6kiYjrEAX82Oqlq&oh=775a3de34d56658ae197b4d8d7754396&oe=601CAA0F&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2" alt=""> Dummy</a>
+                <a class="perek" href="#">Переключиться</a>
+            </div>
+            <div class="reccommend">
+                <div class="rec">
+                    <p>Рекомендации для вас</p>
+                    <a href="#">Все</a>
+                </div>
+
+                <div class="acc">
+                    <div class="ima"></div>
+                    <a href="#" class="name">Dummy</a>
+                    <p>Подписаны: dummy и 1</p>
+                    <a href="#" class="podp">Подписаться</a>
+                </div>
+
+                <div class="acc">
+                    <div class="ima"></div>
+                    <a href="#" class="name">Dummy</a>
+                    <p>Подписаны: dummy и 1</p>
+                    <a href="#" class="podp">Подписаться</a>
+                </div>
+
+                <div class="acc">
+                    <div class="ima"></div>
+                    <a href="#" class="name">Dummy</a>
+                    <p>Подписаны: dummy и 1</p>
+                    <a href="#" class="podp">Подписаться</a>
+                </div>
+
+                <div class="acc">
+                    <div class="ima"></div>
+                    <a href="#" class="name">Dummy</a>
+                    <p>Подписаны: dummy и 1</p>
+                    <a href="#" class="podp">Подписаться</a>
+                </div>
+
+                <div class="acc">
+                    <div class="ima"></div>
+                    <a href="#" class="name">Dummy</a>
+                    <p>Подписаны: dummy и 1</p>
+                    <a href="#" class="podp">Подписаться</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
